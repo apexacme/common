@@ -8,15 +8,6 @@
 기획자1,2 : 외부 API 및 이벤트 데이터 분석, 네이밍, 스팩 정의  
 개발자1,2 : 그냥 아무것도 모른다고 생각하고, 개발만  
 
-## 구글 클라우드 접속
-https://console.cloud.google.com  
-id:  
-pw:  
-
-
-## 쿠버네티스 클라우드 접속
-gcloud container clusters get-credentials standard-cluster-1 --zone asia-northeast1-a --project electric-block-238113  
-
 ## 깃헙 계정을 김상훈씨에게 알려주어서 아래의 github project clone
 https://github.com/lgcns-bootcamp  
 
@@ -36,6 +27,16 @@ sudo vi /etc/hosts
 
 - window  
 C:\Windows\System32\drivers\etc\hosts  
+
+
+## 구글 클라우드 접속
+https://console.cloud.google.com  
+id:  
+pw:  
+
+
+## 쿠버네티스 클라우드 접속
+gcloud container clusters get-credentials standard-cluster-1 --zone asia-northeast1-a --project electric-block-238113  
 
 ## cloud console 에서 간단한 쿠버네티스 명령어
 #### pod 관련
