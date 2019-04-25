@@ -1,10 +1,6 @@
 server:
   port: 8080
 
-
-topic:
-  orderTopic: orderTopic
-
 ---
 spring:
   profiles: default

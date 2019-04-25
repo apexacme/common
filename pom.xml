@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>boot-camp-common</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>boot-camp-delivery</name>
+	<name>boot-camp-common</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
