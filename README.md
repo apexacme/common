@@ -55,6 +55,18 @@ http common:8080/userInfoes
 exit  
 ```
 
+## kafka window 10 설치
+```
+https://kafka.apache.org/downloads 에서 파일 다운로드
+파일 압축풀기
+window cmd 창 열기
+압축 푼 경로로 이동
+zookeeper 실행
+ - zookeeper-server-start ../../config/zookeeper.properties
+kafka server 실행
+ - kafka-server-start ../../config/server.properties
+```
+
 ## kafka 이벤트 확인 명령어
 ### 로컬
 #### 토픽 리스트 보기
