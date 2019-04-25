@@ -57,13 +57,13 @@ exit
 
 ## kafka window 10 설치
 ```
-https://kafka.apache.org/downloads 에서 파일 다운로드
-파일 압축풀기
-window cmd 창 열기
-압축 푼 경로로 이동
-zookeeper 실행
+1. https://kafka.apache.org/downloads 에서 파일 다운로드
+2. 다운로드 파일 압축풀기
+3. window cmd 창 열기
+4. 압축 푼 경로로 이동
+5. zookeeper 실행
  - zookeeper-server-start ../../config/zookeeper.properties
-kafka server 실행
+6. kafka server 실행
  - kafka-server-start ../../config/server.properties
 ```
 
