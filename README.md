@@ -1,6 +1,5 @@
-# common
-공통 모듈
-
+## 이벤트 스토밍 설명
+https://www.slideshare.net/pongsor/event-storming-and-implementation-workshop
 
 
 ## 팀원 역할 협의
@@ -13,6 +12,7 @@ https://github.com/lgcns-bootcamp
 
 ## 시나리오 url
 https://github.com/sw300/event-storming/wiki  
+
 
 ## 각 팀에 마추어 프로젝트 clone 및 개발
 git clone https://github.com/lgcns-bootcamp/goods.git  
