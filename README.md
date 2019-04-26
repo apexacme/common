@@ -67,19 +67,15 @@ exit
  - kafka-server-start ../../config/server.properties
 ```
 ```
-1. producer 실행
- - kafka-console-producer.bat --broker-list localhost:9092 --topic [토픽명]
-2. consumer 실행
- - kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic [토픽명] --from-beginning
-3. producer에 문자 입력 후 consumer에게 전달되는지 확인
+1. 토픽 리스트 보기
+ - kafka-topics.bat --list --zookeeper localhost:2181
+2. 토픽으로 메세지 보내기
+ - producer 실행
+  -- kafka-console-producer.bat --broker-list localhost:9092 --topic [토픽명]
+ - consumer 실행
+  -- kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic [토픽명] --from-beginning
+ - producer에 문자 입력 후 consumer에게 전달되는지 확인
 ```
-
-## kafka 이벤트 확인 명령어
-### 로컬
-#### 토픽 리스트 보기
-#### orderTopic 토픽으로 메세지 보내기 
-#### 클러스터에서 카프카 orderTopic 토픽 데이터 확인
-
 
 ### 클러스터
 #### 토픽 리스트 보기
