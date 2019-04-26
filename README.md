@@ -68,9 +68,9 @@ exit
 ```
 ```
 1. producer 실행
- - kafka-console-producer.bat --broker-list localhost:9092 --topic class-topic
+ - kafka-console-producer.bat --broker-list localhost:9092 --topic [토픽명]
 2. consumer 실행
- - kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic class-topic --from-beginning
+ - kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic [토픽명] --from-beginning
 3. producer에 문자 입력 후 consumer에게 전달되는지 확인
 ```
 
