@@ -55,7 +55,7 @@ http common:8080/userInfoes
 exit  
 ```
 
-## kafka window 10 설치
+## kafka window 10 설치 및 간단 사용가이드
 ```
 1. https://kafka.apache.org/downloads 에서 파일 다운로드
 2. 다운로드 파일 압축풀기
@@ -65,6 +65,13 @@ exit
  - zookeeper-server-start ../../config/zookeeper.properties
 6. kafka server 실행
  - kafka-server-start ../../config/server.properties
+```
+```
+1. producer 실행
+ - kafka-console-producer.bat --broker-list localhost:9092 --topic class-topic
+2. consumer 실행
+ - kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic class-topic --from-beginning
+3. producer에 문자 입력 후 consumer에게 전달되는지 확인
 ```
 
 ## kafka 이벤트 확인 명령어
