@@ -7,16 +7,16 @@ https://www.slideshare.net/pongsor/event-storming-and-implementation-workshop
 기획자1,2 : 외부 API 및 이벤트 데이터 분석, 네이밍, 스팩 정의  
 개발자1,2 : 그냥 아무것도 모른다고 생각하고, 개발만  
 
-## 깃헙 계정을 김상훈씨에게 알려주어서 아래의 github project clone
-https://github.com/lgcns-bootcamp  
 
 ## 시나리오 url
 https://github.com/sw300/event-storming/wiki  
 
 
+## github project clone
+https://github.com/lgcns-bootcamp  
+
 ## 각 팀에 마추어 프로젝트 clone 및 개발
 git clone https://github.com/lgcns-bootcamp/goods.git  
-
 
 ## host 정보 수정하여 kafka 접속
 - mac / linux  
