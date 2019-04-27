@@ -91,4 +91,8 @@ kubectl -n kafka exec -ti my-kafka-0 -- /usr/bin/kafka-console-producer --broker
 kubectl -n kafka exec -ti my-kafka-0 -- /usr/bin/kafka-console-consumer --bootstrap-server my-kafka:9092 --topic orderTopic --from-beginning
 ```
 
+#### 참고 JPA 에서 이전 데이터를 확인하는 방법
+https://www.baeldung.com/spring-data-rest-events
+
+
 
